@@ -5,7 +5,7 @@ export const Hero: React.FC = () => {
     const { scrollYProgress } = useScroll();
     const y = useTransform(scrollYProgress, [0, 1], [0, 200]);
     const imageUrl = import.meta.env.BASE_URL + '/images/photo.jpg';
-    const cvUrl = import.meta.env.BASE_URL + '/pdf/aashishbasyal.pdf';
+    const cvUrl = import.meta.env.BASE_URL + '/pdf/aashishbasyal-cv.pdf';
 
     return (
         <section id="hero" className="min-h-screen flex flex-col items-center justify-center text-center relative overflow-hidden">

@@ -1,106 +1,117 @@
+# 🎯 Modern and Animated Portfolio – Aashish Basyal
 
-# Portfólio Moderno e Animado - Renato Pedrosa Leite
-
-https://renatopedrosal.github.io/aashishbasyal-dev/
-
-## 📜 Descrição
-
-Este é um portfólio web moderno, interativo e totalmente responsivo, construído para apresentar as habilidades, experiência e projetos de um Desenvolvedor Full-Stack. O projeto foi desenvolvido com tecnologias de ponta do ecossistema frontend, focando em uma experiência de usuário (UX) fluida, design atraente (UI) e performance.
-
-O design incorpora um sutil efeito de **neumorfismo**, criando uma interface limpa e tátil, e é enriquecido com animações performáticas utilizando **Framer Motion**.
+💻 **GitHub Repository:** [https://github.com/ashimbasyal/portfolio](https://github.com/ashimbasyal/portfolio)
 
 ---
 
-## ✨ Funcionalidades Principais
+## 📜 Description
 
-- **🎨 Design Moderno e Responsivo:** Interface elegante que se adapta perfeitamente a qualquer tamanho de tela, de desktops a dispositivos móveis.
-- **🌗 Tema Claro e Escuro:** Alternância de tema com persistência no `localStorage`, respeitando a preferência do sistema do usuário.
-- **🚀 Animações Fluidas:** Animações e transições suaves em toda a aplicação, criadas com Framer Motion para uma experiência de navegação envolvente.
-- ** parallax Efeitos de Scroll Parallax:** Elementos decorativos e texturas se movem em velocidades diferentes durante o scroll, adicionando profundidade à página.
-- **🃏 Componentes Interativos:**
-  - **Cartões de Projeto 3D:** Os cartões reagem ao movimento do mouse, criando um efeito de profundidade.
-  - **Linha do Tempo Alternável:** A seção de experiência possui um layout de linha do tempo que pode ser alternado pelo usuário.
-- **💻 Terminal Interativo:** Um terminal acessível via atalho (`Ctrl + K`) que permite ao usuário interagir com o portfólio através de comandos (`help`, `skills`, `projetos`, etc.).
-- **🔧 Arquitetura Robusta:** O projeto é construído com React e TypeScript, garantindo um código bem estruturado, tipado e de fácil manutenção.
+This is a modern, interactive, and fully responsive web portfolio built to showcase the skills, experience, and projects of a **Full-Stack Developer**.
+It was developed using cutting-edge frontend technologies, focusing on a smooth **user experience (UX)**, appealing **user interface (UI)**, and high performance.
+
+The design features a subtle **neumorphism** aesthetic, creating a clean and tactile interface, enhanced with high-performance animations using **Framer Motion**.
 
 ---
 
-## 🛠️ Habilidades e Tecnologias Demonstradas
+## ✨ Key Features
 
-Este projeto é uma vitrine de diversas competências essenciais no desenvolvimento frontend moderno.
+- **🎨 Modern & Responsive Design:** Elegant layout that adapts seamlessly across all devices—from desktops to mobile phones.
+- **🌗 Light & Dark Themes:** Theme switching with persistence in `localStorage`, respecting the user's system preference.
+- **🚀 Smooth Animations:** Seamless animations and transitions powered by Framer Motion for an immersive browsing experience.
+- **🌌 Parallax Scrolling Effects:** Decorative elements and textures move at different speeds during scrolling, adding depth to the design.
+- **🃏 Interactive Components:**
+
+  - **3D Project Cards:** Cards respond to mouse movement to create a depth effect.
+  - **Switchable Timeline Layout:** The experience section features a toggleable timeline layout.
+
+- **💻 Interactive Terminal:** Accessible via shortcut (`Ctrl + K`), allowing users to interact with the portfolio using commands (`help`, `skills`, `projects`, etc.).
+- **🔧 Robust Architecture:** Built with React and TypeScript to ensure clean, maintainable, and scalable code.
+
+---
+
+## 🛠️ Skills and Technologies Demonstrated
+
+This project serves as a showcase of key skills in modern frontend development.
 
 ### **Core Frontend**
 
-- **React:** Utilização extensiva de hooks (`useState`, `useEffect`, `useRef`, `useContext`) para criar uma aplicação reativa e componentizada.
-- **TypeScript:** Aplicação de tipagem estática para garantir a robustez, escalabilidade e manutenibilidade do código.
-- **HTML5 Semântico:** Estrutura de página bem definida para melhor acessibilidade e SEO.
+- **React:** Extensive use of hooks (`useState`, `useEffect`, `useRef`, `useContext`) to build a reactive and modular application.
+- **TypeScript:** Static typing for improved code safety, scalability, and maintainability.
+- **Semantic HTML5:** Proper page structure for better accessibility and SEO.
 
-### **Estilização e UI/UX**
+### **Styling & UI/UX**
 
-- **Tailwind CSS:** Desenvolvimento rápido e consistente da UI com uma abordagem *utility-first*. O tema (cores, fontes, sombras) é totalmente customizado e preparado para o modo escuro.
-- **Design System:** Definição de um sistema de design coeso, com paletas de cores, tipografia e espaçamentos consistentes para os temas claro e escuro.
-- **UI/UX Focado no Usuário:** Atenção aos detalhes, micro-interações, hierarquia visual clara e uma navegação intuitiva para proporcionar a melhor experiência possível.
-- **Neumorfismo:** Uso sutil de sombras para criar uma interface tátil e moderna.
+- **Tailwind CSS:** Fast and consistent UI development with a _utility-first_ approach. The theme (colors, fonts, shadows) is fully customized and dark-mode ready.
+- **Design System:** A cohesive system defining colors, typography, and spacing for both light and dark themes.
+- **User-Centered Design:** Attention to details, micro-interactions, clear visual hierarchy, and intuitive navigation for optimal UX.
+- **Neumorphism:** Subtle shadow effects to create a tactile, modern interface.
 
-### **Animação e Interatividade**
+### **Animation & Interactivity**
 
-- **Framer Motion:** Biblioteca de animação líder para React, utilizada para:
-  - Animações de entrada (`initial`, `animate`).
-  - Animações baseadas em scroll (`useScroll`, `useTransform`).
-  - Animações de hover e tap (`whileHover`, `whileTap`).
-  - Gerenciamento de presença de componentes (`AnimatePresence`).
+- **Framer Motion:** The leading animation library for React, used for:
 
-### **Gerenciamento de Estado**
+  - Entry animations (`initial`, `animate`)
+  - Scroll-based animations (`useScroll`, `useTransform`)
+  - Hover and tap interactions (`whileHover`, `whileTap`)
+  - Component presence management (`AnimatePresence`)
 
-- **React Context API:** Gerenciamento de estado global de forma eficiente para o tema da aplicação, evitando *prop drilling*.
-- **State Lifting:** Padrão utilizado para compartilhar e controlar o estado entre componentes (ex: abrir o modal de projeto a partir do clique no card).
+### **State Management**
 
-### **Acessibilidade (A11y)**
+- **React Context API:** Efficient global state management for theme handling, avoiding prop drilling.
+- **State Lifting:** Used to share state between components (e.g., opening a project modal from a card click).
 
-- **Atributos ARIA:** Uso de `aria-label`, `aria-invalid`, `aria-describedby` para tornar os componentes, especialmente formulários, mais acessíveis para leitores de tela.
-- **Navegação via Teclado:** A aplicação é navegável utilizando o teclado.
-- **Contraste de Cores:** As cores foram escolhidas para garantir boa legibilidade em ambos os temas.
+### **Accessibility (A11y)**
 
-### **Boas Práticas de Desenvolvimento**
+- **ARIA Attributes:** Use of `aria-label`, `aria-invalid`, `aria-describedby` for improved accessibility, especially in forms.
+- **Keyboard Navigation:** The entire app is navigable using only the keyboard.
+- **Color Contrast:** Colors are chosen to ensure legibility in both light and dark modes.
 
-- **Estrutura de Projeto Modular:** Código organizado em uma estrutura de pastas lógica (`components`, `contexts`, `constants`, `types`), facilitando a localização e manutenção de arquivos.
-- **Componentes Reutilizáveis:** Criação de componentes genéricos (`SectionWrapper`, `ProjectCard`) para evitar repetição de código e manter a consistência.
-- **Otimização de Performance:**
-  - Script de tema inline no `<head>` para evitar FOUC (*Flash of Unstyled Content*).
-  - Animações otimizadas com `will-change` e `transform`.
-  - Carregamento assíncrono de fontes.
+### **Development Best Practices**
+
+- **Modular Project Structure:** Organized into logical folders (`components`, `contexts`, `constants`, `types`) for easier navigation and maintenance.
+- **Reusable Components:** Generic components (`SectionWrapper`, `ProjectCard`) promote DRY principles and consistency.
+- **Performance Optimization:**
+
+  - Inline theme script in `<head>` to prevent FOUC (_Flash of Unstyled Content_).
+  - Optimized animations using `will-change` and `transform`.
+  - Asynchronous font loading for faster rendering.
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🚀 Run Locally
 
-Para executar este projeto em sua máquina, siga os passos abaixo:
+To run this project on your local machine:
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
+
    ```bash
-   git clone https://github.com/renatopedrosal/aashishbasyal-dev.git
+   git clone https://github.com/ashimbasyal/portfolio.git
    ```
 
-2. **Navegue até o diretório do projeto:**
+2. **Navigate into the project directory:**
+
    ```bash
-   cd seu-repositorio
+   cd portfolio
    ```
 
-3. **Instale as dependências:**
-   (Assumindo que você está usando npm)
+3. **Install dependencies:**
+   (Assuming you’re using npm)
+
    ```bash
    npm install
    ```
 
-4. **Inicie o servidor de desenvolvimento:**
+4. **Start the development server:**
+
    ```bash
    npm run dev
    ```
 
-5. Abra [http://localhost:5173](http://localhost:5173) (ou a porta indicada no seu terminal) no seu navegador para ver a aplicação.
+5. Open [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal) in your browser to view the app.
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for more details.
